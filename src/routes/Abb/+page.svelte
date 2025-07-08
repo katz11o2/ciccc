@@ -1,16 +1,15 @@
 <script>
-    import { onMount } from "svelte";
-  
-    let fadeIn = false;
-  
-    function goToGoogle() {
-      window.location.href = "https://engg.cambridge.edu.in/";
-    }
-  
-    onMount(() => {
-      fadeIn = true;
-    });
-  </script>
+  import { onMount } from 'svelte';
+  let fadeIn = false;
+  onMount(() => {
+    fadeIn = true;
+  });
+</script>
+
+<svelte:head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+</svelte:head>
+
   
   <style>
     :global(body) {
@@ -20,12 +19,18 @@
       height: 100%;
       font-family: "Poppins", sans-serif;
       background: white;
-      display: flex;
+     
       justify-content: center;
       align-items: start;
       overflow-x: hidden;
     }
   
+    .main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
     .container {
       width: 100%;
       max-width: 1000px;
@@ -176,20 +181,19 @@
     
   </style>
   
+<div class="main">
   <div class="container" class:fade-in={fadeIn}>
     <div class="greeting">
       <div class="header">
         <h2>Cambarian Incubation Center (CIC)</h2>
         <div class="flex items-center gap-3 mt-2 mb-1">
-            <!-- Two dots -->
-            <span class="w-2 h-2 bg-blue-900 rounded-full"></span>
-            <span class="w-2 h-2 bg-blue-900 rounded-full"></span>
-            <!-- Line -->
-            <div class="w-[60px] h-0.5 bg-blue-900 ml-2"></div>
+          <span class="w-2 h-2 bg-blue-900 rounded-full"></span>
+          <span class="w-2 h-2 bg-blue-900 rounded-full"></span>
+          <div class="w-[60px] h-0.5 bg-blue-900 ml-2"></div>
         </div>
-    </div>
-    
-    <p class="justified-text">
+      </div>
+
+     <p class="justified-text">
       The Cambrian Incubation Centre (CIC) is a smart initiative, established by 
       <a href="https://engg.cambridge.edu.in/" target="_blank" class="msme-link">Cambridge Institute of Technology</a>, Bangalore, to create a vibrant ecosystem that encourages technological innovation leading to entrepreneurship and growth. Its primary objective is to provide a supportive environment to innovation-hungry 
       <a href="https://msme.gov.in/" target="_blank" class="msme-link">MSMEs</a> to the extent possible and permissible. It fosters creation of a collaborative environment where students (potential entrepreneurs), academic staff (as mentors), and industry experts, especially from 
@@ -200,6 +204,7 @@
       <a href="https://msme.gov.in/" target="_blank" class="msme-link">MSME</a> 
       <a href="https://www.dcmsme.gov.in/" target="_blank" class="msme-link">(DCMSME) Centre of Excellence</a> IISc, Bangalore. This Centre would provide several facilities like Incubation Space (having office space, meeting rooms, internet, etc), Mentorship (connect with learned faculty), exposure to cutting-edge technologies (through participation in events like awareness programs and workshops), laboratories (for experimentation, etc).
     </p>
+
         <h2> Incubation Team</h2>
         <div class="flex items-center gap-3 mt-2 mb-1">
           <!-- Two dots -->
@@ -304,11 +309,8 @@
   <div class="flex justify-center">
     <a  target="_blank" class="w-48 p-4 text-center border-2 border-blue-800 bg-blue-100 text-blue-900 hover:bg-blue-200 hover:shadow-lg transition duration-200 rounded-md">All HoDs, CITech</a>
   </div>
+ </div>
 
-</div>
-
-      
-      
-  
   </div>
-  
+
+</div>  

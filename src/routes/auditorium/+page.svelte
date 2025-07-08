@@ -1,7 +1,7 @@
 <script>
   const images = [
     'https://i.postimg.cc/YStCGmC6/IMG20230904091154-01.jpg',
-      'https://i.postimg.cc/0N0nN4MF/284A9787.jpg',
+      'https://engg.cambridge.edu.in/wp-content/uploads/2025/05/1Z0A1803-2048x1365.jpg',
     'https://i.postimg.cc/sXKTTL37/IMG20230904091222-01.jpg',
     'https://i.postimg.cc/cCHX2cJj/IMG20230904091245-01.jpg'
   

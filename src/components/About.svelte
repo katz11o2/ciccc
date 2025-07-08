@@ -110,24 +110,28 @@ function goTo(page) {
 <div class=" flex justify-center items-center gap-34 pr-8 bg-white pt-15">
 
   <!-- Box 1 -->
-  <div class="w-[130px] h-[150px] border border-transparent flex flex-col items-center justify-center bg-white p-2">
-    <img src="/logos/factory.gif" alt="Factory Animation" class="w-10 h-10 object-contain mb-1" />
-    <img src="/logos/50+.png" alt="50 Plus" class="w-10 h-10 object-contain mb-1" />
-    <img src="/logos/50+ Industry Partners.png" alt="50+ Industry Partners" class="relative pt-2 w-70 object-contain" />
-  </div>
+ <div class="w-[130px] h-[150px] border border-transparent flex flex-col items-center justify-center bg-white p-2">
+  <img src="/logos/factory.gif" alt="Factory Animation" class="w-10 h-10 object-contain mb-1" />
+  <p style="color: #17194a; font-family: 'Poppins', sans-serif;" class="text-sm text-center mt-2">
+    15+ Industry Partners
+  </p>
+</div>
+
 
   <!-- Box 2 -->
   <div class="w-[125px] h-[145px] border border-transparent flex flex-col items-center justify-center bg-white p-2">
     <img src="/logos/certificate.gif" alt="Certificate Animation" class="w-10 h-10 object-contain mb-1" />
-    <img src="/logos/30+.png" alt="30 Plus" class="w-10 h-10 object-contain mb-1" />
-    <img src="/logos/Patents Filed.png" alt="Patents Filed" class="w-20 h-auto object-contain" />
+    <p style="color: #17194a; font-family: 'Poppins', sans-serif;" class="text-sm text-center mt-2">
+    1500+ Patents filed
+  </p>
   </div>
 
   <!-- Box 3 -->
   <div class="w-[125px] h-[145px] border border-transparent flex flex-col items-center justify-center bg-white p-2">
     <img src="/logos/success.gif" alt="Success Animation" class="w-10 h-10 object-contain mb-1" />
-    <img src="/logos/95%25.png" alt="95%" class="w-10 h-10 object-contain mb-1" />
-    <img src="/logos/Success%20Rate.png" alt="Success Rate" class="w-20 h-auto object-contain" />
+   <p style="color: #17194a; font-family: 'Poppins', sans-serif;" class="text-sm text-center mt-2">
+    15+ Years of Experience
+  </p>
   </div>
 
 </div>
@@ -171,10 +175,11 @@ function goTo(page) {
 
 
 
-<div class="w-full bg-white flex justify-center py-4 pt-10">
-  <img 
+<div  class="w-full bg-white flex justify-center py-4 pt-10">
+  <img  
     src="https://i.ibb.co/0jjYCB1r/Frame-3.png" 
     alt="Frame-3" 
+    href="https://engg.cambridge.edu.in/"
     border="5"
     class="w-[80%] h-[100%] relative left-2 object-contain rounded-[30px] transition-transform duration-300 hover:scale-105" 
   />
