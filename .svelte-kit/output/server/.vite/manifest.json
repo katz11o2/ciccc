@@ -1,0 +1,263 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_Header.CGj8pSo0.css": {
+    "file": "_app/immutable/assets/Header.CGj8pSo0.css",
+    "src": "_Header.CGj8pSo0.css"
+  },
+  "_Header.js": {
+    "file": "chunks/Header.js",
+    "name": "Header",
+    "imports": [
+      "_attributes.js",
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Header.CGj8pSo0.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/CIT.BO5lQ4Vz.png",
+      "_app/immutable/assets/CHOSS.B13DbroV.png",
+      "_app/immutable/assets/CIC.BrwH0pIO.png"
+    ]
+  },
+  "_attributes.js": {
+    "file": "chunks/attributes.js",
+    "name": "attributes",
+    "imports": [
+      "_escaping.js"
+    ]
+  },
+  "_client.js": {
+    "file": "chunks/client.js",
+    "name": "client",
+    "imports": [
+      "_exports.js",
+      "_equality.js"
+    ]
+  },
+  "_equality.js": {
+    "file": "chunks/equality.js",
+    "name": "equality"
+  },
+  "_escaping.js": {
+    "file": "chunks/escaping.js",
+    "name": "escaping"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports",
+    "imports": [
+      "_equality.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_equality.js",
+      "_index.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_escaping.js",
+      "_index.js",
+      "_client.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js"
+    ]
+  },
+  "src/lib/logos/CHOSS.png": {
+    "file": "_app/immutable/assets/CHOSS.B13DbroV.png",
+    "src": "src/lib/logos/CHOSS.png"
+  },
+  "src/lib/logos/CIC.png": {
+    "file": "_app/immutable/assets/CIC.BrwH0pIO.png",
+    "src": "src/lib/logos/CIC.png"
+  },
+  "src/lib/logos/CIT.png": {
+    "file": "_app/immutable/assets/CIT.BO5lQ4Vz.png",
+    "src": "src/lib/logos/CIT.png"
+  },
+  "src/lib/logos/IISC.png": {
+    "file": "_app/immutable/assets/IISC.uXFcIskR.png",
+    "src": "src/lib/logos/IISC.png"
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Header.js",
+      "_escaping.js",
+      "_attributes.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.BGFijV9t.css"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_Header.js",
+      "_index.js",
+      "_client.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Dfi_FPgZ.css"
+    ]
+  },
+  "src/routes/Abb/+page.svelte": {
+    "file": "entries/pages/Abb/_page.svelte.js",
+    "name": "entries/pages/Abb/_page.svelte",
+    "src": "src/routes/Abb/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_attributes.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.B1Pfr9AS.css"
+    ]
+  },
+  "src/routes/arun/+page.svelte": {
+    "file": "entries/pages/arun/_page.svelte.js",
+    "name": "entries/pages/arun/_page.svelte",
+    "src": "src/routes/arun/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BxUC5Wux.css"
+    ]
+  },
+  "src/routes/auditorium/+page.svelte": {
+    "file": "entries/pages/auditorium/_page.svelte.js",
+    "name": "entries/pages/auditorium/_page.svelte",
+    "src": "src/routes/auditorium/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_attributes.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DYauj9oT.css"
+    ]
+  },
+  "src/routes/beneficiaries/+page.svelte": {
+    "file": "entries/pages/beneficiaries/_page.svelte.js",
+    "name": "entries/pages/beneficiaries/_page.svelte",
+    "src": "src/routes/beneficiaries/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_attributes.js",
+      "_escaping.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.VzMmiO-j.css"
+    ]
+  },
+  "src/routes/ceo/+page.svelte": {
+    "file": "entries/pages/ceo/_page.svelte.js",
+    "name": "entries/pages/ceo/_page.svelte",
+    "src": "src/routes/ceo/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.W1B353rU.css"
+    ]
+  },
+  "src/routes/ceoview/+page.svelte": {
+    "file": "entries/pages/ceoview/_page.svelte.js",
+    "name": "entries/pages/ceoview/_page.svelte",
+    "src": "src/routes/ceoview/+page.svelte",
+    "isEntry": true,
+    "css": [
+      "_app/immutable/assets/_page.GGLO5PWA.css"
+    ]
+  },
+  "src/routes/chairman/+page.svelte": {
+    "file": "entries/pages/chairman/_page.svelte.js",
+    "name": "entries/pages/chairman/_page.svelte",
+    "src": "src/routes/chairman/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CwuN-3ow.css"
+    ]
+  },
+  "src/routes/classrooms/+page.svelte": {
+    "file": "entries/pages/classrooms/_page.svelte.js",
+    "name": "entries/pages/classrooms/_page.svelte",
+    "src": "src/routes/classrooms/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_attributes.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CKEE-vJC.css"
+    ]
+  },
+  "src/routes/conference-rooms/+page.svelte": {
+    "file": "entries/pages/conference-rooms/_page.svelte.js",
+    "name": "entries/pages/conference-rooms/_page.svelte",
+    "src": "src/routes/conference-rooms/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_attributes.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CKEE-vJC.css"
+    ]
+  },
+  "src/routes/conference-rooms2/+page.svelte": {
+    "file": "entries/pages/conference-rooms2/_page.svelte.js",
+    "name": "entries/pages/conference-rooms2/_page.svelte",
+    "src": "src/routes/conference-rooms2/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_attributes.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CKEE-vJC.css"
+    ]
+  }
+}

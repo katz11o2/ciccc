@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/conference-rooms2/+page.svelte";
